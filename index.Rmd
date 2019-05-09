@@ -1,0 +1,45 @@
+---
+title: "Meu Segundo Relatório"
+output: github_document
+---
+
+ 
+```{r}
+library(dplyr)
+```
+
+```{r}
+library(ggplot2)
+```
+
+
+
+```{r}
+library(gapminder)
+```
+
+```{r}
+head(gapminder)
+```
+
+```{r}
+nrow (gapminder)
+```
+
+```{r}
+gapminder %>%
+  select(year) %>%
+  unique() %>%
+  nrow()
+```
+
+```{r}
+df<-gapminder
+```
+
+```{r}
+gapminder %>%  
+  group_by(year)%>% 
+  summarise( n=n() )
+```
+

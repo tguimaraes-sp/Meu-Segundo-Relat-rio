@@ -4,3 +4,6 @@ output: github_document
 ---
 
 [Relatorio2](https://tguimaraes-sp.github.io/Meu-Segundo-Relatorio/) 
+```{r, echo=F, out.width="50%", fig.align="center"}
+    knitr::include_graphics("MP.png")
+```

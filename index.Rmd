@@ -4,17 +4,17 @@ output: github_document
 ---
 
  
-```{r}
+```{r,message=FALSE}
 library(dplyr)
 ```
 
-```{r}
+```{r,message=FALSE}
 library(ggplot2)
 ```
 
 
 
-```{r}
+```{r,message=FALSE}
 library(gapminder)
 ```
 
